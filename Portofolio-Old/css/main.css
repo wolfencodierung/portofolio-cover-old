@@ -1,0 +1,91 @@
+@import "header.css";
+@import "footer.css";
+
+body {
+    font-family: Ubuntu, Open Sans;  
+}
+ul li a:hover, ul li a:focus {
+    color:#e7704b;
+    height: 0px;
+    background: #e7704b;
+    display: block;
+    padding-top: 5px;
+    border-radius: 2px;
+    text-decoration: none;
+    font-weight: bold;
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+    text-shadow: 1px 2px 5px rgba(0,0,0,0.3);
+    text-align: #ffffff;
+}
+h1 {
+    color: #ffffff;
+    margin: 200px 0px 38px 0;
+    font-size: 55pt;
+    font-weight: normal;
+    text-shadow: 1px 4px 3px rgba(0,0,0,0.3); 
+    letter-spacing: -3px;
+}
+h2 {
+    color: #ffffff;
+    margin: 0px 0px 18px 0;
+    font-size: 16pt;
+    text-shadow: 1px 4px 3px rgba(0,0,0,0.3);
+    letter-spacing: -1px;
+    font-weight: normal;
+}
+h3 {
+    color: #e76d49;
+    font-size: 28pt;
+    margin: 24px 0px 12px 0px;
+    font-weight: normal;
+}
+h4 {
+    color: #e76d49;
+    font-size: 25pt;
+    margin: 0px 0px 12px 0px;
+    font-weight: normal;  
+}
+
+/* Main Section */
+.container-main {
+    text-align: center;
+}
+.sample-row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.4);
+    margin: 30px auto 30px auto;
+    max-width: 890px;
+    align-items: center;
+    justify-content: center;
+}
+.sample-column-left {
+    width: 445px;
+    padding: 5px;
+}
+.sample-column-subtext {
+    font-size: 12pt;
+    padding: 5px;
+}
+.sample-column-right {
+    text-align: center;
+    width: 445px;
+    height: 100%;
+    margin: 0 0 0 0;
+}
+.sample-img {
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    filter: contrast(90%);
+}
+.main-line {
+    width: 75%;
+    color: #00adeb;
+    border-right: medium none;
+    border-top: #cccccc 2px solid;
+    border-left: medium none;
+    border-bottom: medium none;
+    height: 1.5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.4);
